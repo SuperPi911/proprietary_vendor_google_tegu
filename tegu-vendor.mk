@@ -791,6 +791,9 @@ PRODUCT_PACKAGES += \
     vendor.google.edgetpu_app_service@1.0-service.xml \
     android.hardware.boot-service.default_recovery-pixel.xml \
     android.hardware.health-service.zumapro_recovery.xml \
+    dump_modem \
+    gpuflag \
+    vendor.google.mte_launcher \
     gs_watchdogd \
     vendor.google.edgetpu_app_service@1.0-service \
     vendor.google.whitechapel.audio.hal.parserservice \
@@ -2995,7 +2998,6 @@ PRODUCT_PACKAGES += \
     dump_exynos_display \
     dump_fingerprint \
     dump_gsc \
-    dump_modem \
     dump_modemlog \
     dump_pcie \
     dump_perf \
@@ -3008,7 +3010,6 @@ PRODUCT_PACKAGES += \
     dump_tpu \
     dump_trusty \
     gia \
-    gpuflag \
     android.hardware.audio.service-aidl.aoc \
     android.hardware.authsecret-service.citadel \
     android.hardware.biometrics.fingerprint-service.goodix \
@@ -3050,7 +3051,6 @@ PRODUCT_PACKAGES += \
     usboffmode \
     vendor.google.edgetpu_vendor_service@1.0-service \
     vendor.google.google_battery-service \
-    vendor.google.mte_launcher \
     vendor.google.plat_security-service \
     vendor.google.radioext@1.0-service \
     vendor.google.wireless_charger-default \
